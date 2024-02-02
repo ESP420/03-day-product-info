@@ -148,6 +148,11 @@ body {
 	padding: 20px 0;
 }
 
+.stock-text {
+	position: absolute;
+	font-size: 16px;
+}
+
 .card-footer {
 	grid-area: footer;
 	display: flex;
@@ -160,6 +165,7 @@ body {
 	background-color: var(--white-color);
 	border: 1px solid rgb(201, 201, 201);
 	color: var(--text-color);
+	font-weight: 500;
 
 
 }
@@ -174,11 +180,26 @@ body {
 	background-color: var(--white-color);
 	border: 1px solid rgb(201, 201, 201);
 	color: var(--text-color);
+	font-weight: 500
 }
 
 .add-wishlist:hover {
 	color: var(--white-color);
 	background-color: rgb(201, 201, 201);
+}
+
+ul {
+
+	margin-left: 30px;
+}
+
+li {
+	font-size: 31px;
+}
+
+li::marker {
+	color: hsl(158.43deg 100% 42.55%);
+	;
 }
 
 /* *********---- TABLET ----********* */
