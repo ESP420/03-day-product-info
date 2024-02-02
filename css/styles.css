@@ -97,7 +97,7 @@ body {
 }
 
 .tag {
-	padding: 5px;
+	padding: 2px 10px;
 	background-color: var(--text-color);
 	color: var(--white-color);
 	border-radius: 25px;
@@ -125,7 +125,8 @@ body {
 }
 
 .description {
-	padding: 20px 0;
+	font-size: 12px;
+	padding: 10px 0 20px 0;
 	color: gray;
 }
 
@@ -150,7 +151,8 @@ body {
 
 .stock-text {
 	position: absolute;
-	font-size: 16px;
+	font-size: 12px;
+	font-weight: 600;
 }
 
 .card-footer {
