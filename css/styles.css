@@ -146,11 +146,13 @@ body {
 
 
 .stock {
+	position: relative;
 	padding: 20px 0;
 }
 
 .stock-text {
 	position: absolute;
+	left: -12px;
 	font-size: 12px;
 	font-weight: 600;
 }
